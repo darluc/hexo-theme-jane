@@ -3,7 +3,6 @@ menu:
   Home: /
   Archives: /archives
   Tag: /tags
-  Github: https://github.com/
 rss: /atom.xml
 
 # Content
@@ -11,5 +10,5 @@ excerpt_link: More...
 fancybox: true
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-67274065-1
 favicon: /favicon.png

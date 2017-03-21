@@ -1,4 +1,9 @@
 (function($){
+  requirejs(['//res.wx.qq.com/open/js/jweixin-1.2.0.js'], function(wx){
+    $.get('http://zvz.im/blog/jssdk', function(data){
+      console.log('xxx-sig', data);
+    });
+  });
   
   // Caption
   $('.article-entry').each(function(i){

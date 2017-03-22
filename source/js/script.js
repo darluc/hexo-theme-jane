@@ -1,9 +1,17 @@
 (function($){
+  /* because of having no sharing privileges of wechat, comment these lines of code.
   requirejs(['//res.wx.qq.com/open/js/jweixin-1.2.0.js'], function(wx){
-    $.get('http://zvz.im/blog/jssdk', function(data){
-      console.log('xxx-sig', data);
+    $.get('//zvz.im/blog/jssdk', function(data){
+      var cfg = $.extends({}, data, {
+        'jsApiList': []
+      });
+      delete cfg.url;
+      wx.config(cfg);
+    });
+    wx.ready(function(){
     });
   });
+  */
   
   // Caption
   $('.article-entry').each(function(i){

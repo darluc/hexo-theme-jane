@@ -32,7 +32,9 @@
     <%- partial('post/nav') %>
   <% } %>
 </article>
-
+<%if(!index){%>
+<script type='text/javascript'>window.notIndexPage = true;</script>
+<%}%>
 <% if (!index && post.comments && config.disqus_shortname && page.path !== "tags/index.html"){ %>
 <section id="comments">
   <div id="disqus_thread">

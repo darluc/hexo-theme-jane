@@ -12,3 +12,4 @@ fancybox: true
 # Miscellaneous
 google_analytics: UA-67274065-1
 favicon: /favicon.png
+adv_fetch_url: //manage.zvz.im/api/posts/adv

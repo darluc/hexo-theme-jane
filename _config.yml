@@ -13,3 +13,9 @@ fancybox: true
 google_analytics: UA-67274065-1
 favicon: /favicon.png
 adv_fetch_url: //manage.zvz.im/api/posts/adv
+
+# MathJax Support
+mathjax:
+  enable: true
+  per_page: true
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
